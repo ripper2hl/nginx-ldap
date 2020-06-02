@@ -5,9 +5,9 @@ Example of how to configure Nginx load balancer for a LDAP servers by ip hash co
 ## Run it
 
 ```bash
-git clone
+git clone https://github.com/ripper2hl/nginx-ldap.git
 
-cd
+cd nginx-ldap
 
 docker-compose build
 
@@ -21,8 +21,6 @@ docker-compose logs -f
 
 I used Apache [Directory Studio](https://directory.apache.org/studio)
 
-
-
 **hostname:** localhost
 
 **port:** 389
@@ -34,6 +32,10 @@ I used Apache [Directory Studio](https://directory.apache.org/studio)
 ![1](1.png)
 
 ![2](2.png)
+
+## in action
+
+[![asciicast](https://asciinema.org/a/efMAhd17dSmEN02ctnmF1EBLb.png)](https://asciinema.org/a/efMAhd17dSmEN02ctnmF1EBLb)
 
 ## Fonts:
 
