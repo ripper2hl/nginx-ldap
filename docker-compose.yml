@@ -1,0 +1,12 @@
+version : '3'
+
+services :
+  nginx-ldap:
+      ports:
+        - "389:389"
+      image: nginx-ldap
+      build: .
+  ldap1:
+      image: openmicroscopy/apacheds
+  ldap2:
+      image: openmicroscopy/apacheds
